@@ -225,8 +225,10 @@ body {
       }
    }
    .submit {
+      box-sizing: border-box;
       height: 35px;
-      width: 60px;
+      min-width: 60px;
+      padding: 0 10px;
       background-color: $colors-theme-blue;
       border: none;
       border-radius: 0;
