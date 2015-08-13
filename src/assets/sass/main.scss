@@ -209,6 +209,7 @@ body {
       padding: 5px 10px;
       width: 100%;
       border: 1px solid $colors-theme-blue;
+      color: $colors-theme-blue;
       font-size: .8em;
       font-weight: 400;
       letter-spacing: .75px;
@@ -217,6 +218,10 @@ body {
       &::placeholder {
          color: $colors-theme-gray;
          font-weight: 300;
+      }
+      &.invalid {
+         border: 1px solid red;
+         color: red;
       }
    }
    .submit {
